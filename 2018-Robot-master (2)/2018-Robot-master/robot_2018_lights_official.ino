@@ -6,7 +6,12 @@
 
 
 /*
-   Inputs from RoboRio:
+   Arduino  pinout:
+   A5 => I2C Pin SCL RoboRIO
+   A4 => I2C Pin SDA RoboRIO
+   D6 => DataIn (Din) on LEDStrip
+   
+   Data values sent from RoboRio:
    0 to 20 - elevator
    21 - off
    22 - red alliance, low gear
